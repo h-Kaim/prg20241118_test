@@ -1,6 +1,19 @@
 
 h1 {
-    font-size: large;
-    font-weight: bold;
-    color: blue;
+    font-family: system-ui;
+    font-weight: bolder;
+    color: yellow;
+    background-color: black;
+}
+
+h2 {
+    font-family: monospace;
+    font-weight: bolder;
+    color: antiquewhite;
+    background-color: black;
+}
+
+h6 {
+    font-family: sans-serif;
+    color: red;
 }
