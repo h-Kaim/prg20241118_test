@@ -33,16 +33,12 @@
             <script>
                 function ques(){
                     if(window.confirm("申し込みますか？")){
-                        fin();
+                        location.href= 'result.html';
                     }else{
                         send();
                     }
                 }
-
-                function fin(){
-                    window.location.href= 'h-Kaim/prg20241118_test/result.html';
-                }
-
+                
                 function send(){
                     alert("できませんでした");
                 }
