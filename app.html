@@ -21,11 +21,11 @@
                 </div>
                 <div>
                     お名前
-                    <input type="text">
+                    <input type="text" id="name" name="name">
                 </div>
                 <div>
                     電話番号
-                    <input type="text">
+                    <input type="text" id="input" name="input">
                 </div>
             </fieldset>
             <input type="submit" value="送　　信" onclick="ques()">
@@ -34,7 +34,7 @@
                 function ques(){
                     if(window.confirm("申し込みますか？")){
                         window.location.href = 'result.html';
-                        //alert("成功しました")
+                       
                     }else{
                         send();
                     }
